@@ -1,0 +1,63 @@
+/* General */
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  transition: all 0.1s linear;
+}
+a:hover, a:focus {
+  color: #337ab7;
+}
+
+/* Logo */
+.logo {
+  display: inline-block;
+  width: 91px;
+  padding: 10px 0;
+  line-height: 71px;
+  text-align: center;
+  border-radius: 50%;
+  background-color: #e81c4f;
+}
+
+/* Header */
+header {
+  position: relative;
+  padding: 12vw 0;
+  color: #eee;
+  background: url('../images/header-sm.png') no-repeat center center transparent;
+  background-size: cover;
+}
+header ul {
+  padding-top: 2em;
+}
+header ul li {
+  padding: 0 12px !important;
+}
+header a {
+  color: inherit;
+}
+header .unsplash {
+  position: absolute;
+  bottom: 1em;
+  right: 1em;
+}
+
+/* Footer */
+footer {
+  padding: 5vw 0;
+  color: #eee;
+  background: #333;
+}
+footer ul li {
+  padding: 0 12px !important;
+}
+footer a {
+  color: inherit;
+}
+
+/* Section: Portfolio */
+#portfolio h2 {
+  text-align: center;
+}
