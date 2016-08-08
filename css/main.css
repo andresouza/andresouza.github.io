@@ -26,7 +26,7 @@ header {
   position: relative;
   padding: 12vw 0;
   color: #eee;
-  background: url('../images/header-sm.png') no-repeat center center transparent;
+  background: url('../images/header.png') no-repeat center center transparent;
   background-size: cover;
 }
 header ul {
