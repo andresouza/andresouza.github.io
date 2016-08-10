@@ -78,7 +78,7 @@ footer a {
   margin-top: 24px;
   border-radius: 12px;
   overflow: hidden;
-  transition: all 0.1s linear;
+  box-shadow: 0px 6px 6px rgba(0,0,0,0.7);
 }
 #portfolio .portfolio-item img {
   display: block;
@@ -115,9 +115,13 @@ footer a {
 .modal-body > ul {
   margin: 0 10px 15px;
 }
+.modal-body .single-image img {
+  width: 100%;
+}
 
 /* Owl Carousel */
 .owl-carousel {
+  min-height: 400px;
   background: url('../images/loading.gif') no-repeat center center transparent;
 }
 .owl-carousel .owl-prev, .owl-carousel .owl-next {
