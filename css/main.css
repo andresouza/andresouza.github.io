@@ -38,8 +38,8 @@ header {
 header h1 {
   color: inherit;
 }
-header ul {
-  padding-top: 2em;
+header h4 {
+  margin: 1em 0px 1.5em;
 }
 header ul li {
   padding: 0 12px !important;
