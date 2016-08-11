@@ -122,7 +122,7 @@ footer a {
 
 /* Owl Carousel */
 .owl-carousel {
-  min-height: 400px;
+  min-height: 160px;
   background: url('../images/loading.gif') no-repeat center center transparent;
 }
 .owl-carousel .owl-prev, .owl-carousel .owl-next {
