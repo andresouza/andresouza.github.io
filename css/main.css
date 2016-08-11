@@ -33,6 +33,7 @@ header {
   color: #eee;
   background: url('../images/header.png') no-repeat center center transparent;
   background-size: cover;
+  background-attachment: fixed;
 }
 header h1 {
   color: inherit;
