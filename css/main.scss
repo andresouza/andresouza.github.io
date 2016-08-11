@@ -1,0 +1,164 @@
+---
+---
+
+/* General */
+body {
+  font-family: 'Lato', sans-serif;
+  color: #555;
+}
+
+h1, h2, strong {
+  color: #333;
+}
+
+a {
+  transition: all 0.1s linear;
+
+  &:hover, &:focus {
+    color: #337ab7;
+  }
+}
+
+/* Logo */
+.logo {
+  display: inline-block;
+  width: 91px;
+  padding: 10px 0;
+  line-height: 71px;
+  text-align: center;
+  color: #eee;
+  border-radius: 50%;
+  background-color: #e81c4f;
+}
+
+/* Header */
+header {
+  position: relative;
+  padding: 12vw 0;
+  color: #eee;
+  background: url('../images/header.png') no-repeat center center transparent;
+  background-size: cover;
+  background-attachment: fixed;
+
+  h1 {
+    color: inherit;
+  }
+
+  h4 {
+    margin: 1em 0px 1.5em;
+  }
+
+  ul li {
+    padding: 0 12px !important;
+  }
+
+  a {
+    color: inherit;
+  }
+
+  .unsplash {
+    position: absolute;
+    bottom: 1em;
+    right: 1em;
+  }
+}
+
+/* Footer */
+footer {
+  padding: 5vw 0;
+  color: #eee;
+  background: #333;
+
+  ul li {
+    padding: 0 12px !important;
+  }
+
+  a {
+    color: inherit;
+  }
+}
+
+/* Section: Portfolio */
+#portfolio {
+  padding-bottom: 32px;
+
+  h2 {
+    text-align: center;
+  }
+
+  .portfolio-item {
+    position: relative;
+    display: block;
+    margin-top: 24px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0px 6px 6px rgba(0,0,0,0.7);
+
+    img {
+      display: block;
+      width: 100%;
+    }
+
+    .overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      right: 0;
+      background: rgba(0,0,0,0.8);
+      opacity: 0;
+      transition: all 0.1s linear;
+    }
+
+    .overlay i {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      margin: -21px 0 0 -20px;
+      color: #eee;
+    }
+
+    &:hover .overlay{
+      opacity: 1;
+    }
+  }
+}
+
+/* Modal */
+.modal-content {
+  overflow: hidden;
+}
+.modal-body {
+  padding: 15px 0 0 0;
+
+  > ul {
+    margin: 0 10px 15px;
+  }
+
+  .single-image img {
+    width: 100%;
+  }
+}
+
+/* Owl Carousel */
+.owl-carousel {
+  min-height: 160px;
+  background: url('../images/loading.gif') no-repeat center center transparent;
+
+  .owl-prev, .owl-next {
+    position: absolute;
+    top: 50%;
+    margin-top: -24px;
+    padding: 12px;
+    font-size: 34px;
+    color: #e81c4f;
+  }
+
+  .owl-prev {
+    left: 0;
+  }
+
+  .owl-next {
+    right: 0;
+  }
+}
